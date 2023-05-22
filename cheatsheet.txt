@@ -1,6 +1,5 @@
 ## Comandos de Git más utilizados:
 -Clonar Repositorio:
-
 ```git clone ssh://usuario@domain.com/repo.git
 -Crear nuevo repositorio local
 ```git init
