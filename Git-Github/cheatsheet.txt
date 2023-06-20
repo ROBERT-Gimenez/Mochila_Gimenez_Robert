@@ -1,0 +1,33 @@
+git config --global user.name "Tu nombre": Establece el nombre de usuario globalmente.
+git config --global user.email "tu@correo.com": Establece el correo electrónico globalmente.
+git config --global core.editor "nombre_editor": Establece el editor de texto por defecto.
+Crear y clonar repositorios:
+4. git init: Inicializa un nuevo repositorio local en el directorio actual.
+
+git clone <url_repositorio>: Clona un repositorio remoto en tu máquina local.
+Guardar cambios:
+6. git add <archivo>: Añade un archivo específico al área de preparación (staging area).
+
+git add .: Añade todos los archivos modificados y nuevos al área de preparación.
+git commit -m "Mensaje del commit": Crea un nuevo commit con los cambios agregados al área de preparación.
+git commit -a -m "Mensaje del commit": Añade y crea un nuevo commit automáticamente con todos los cambios realizados.
+git stash: Guarda temporalmente los cambios actuales en una pila de cambios sin realizar un commit.
+Sincronizar con repositorio remoto:
+11. git push origin <rama>: Envía los commits locales a la rama especificada en el repositorio remoto.
+
+git pull origin <rama>: Obtiene los cambios del repositorio remoto y los fusiona con tu rama local.
+git fetch: Obtiene los últimos cambios del repositorio remoto sin fusionarlos automáticamente.
+Gestión de ramas:
+14. git branch: Lista todas las ramas y muestra la rama actual.
+
+git branch <nombre_rama>: Crea una nueva rama.
+git checkout <rama>: Cambia a la rama especificada.
+git merge <rama>: Fusiona la rama especificada con la rama actual.
+Visualización y registro de cambios:
+18. git log: Muestra el historial de commits.
+
+git diff: Muestra los cambios entre el directorio de trabajo y el área de preparación.
+git status: Muestra el estado actual del repositorio.
+
+git log: Muestra una lista de confirmaciones en una rama que incluye los detalles correspondientes.
+git rm: Elimina archivos de tu index
