@@ -1,0 +1,24 @@
+1. IP de mi VM
+inet addr:10.0.2.15 
+
+2.Direccion MAC de mi VM
+HWaddr 08:00:27:28:df:ea
+
+3.En nuestra máquina virtual, la dirección IP pública y la dirección IP
+privada son distintas. La dirección IP pública se refiere a la dirección
+asignada a nuestro enrutador, que es la conexión entre nuestra red 
+doméstica y el mundo exterior. Esta dirección IP pública es visible 
+para otros dispositivos y redes en Internet y se utiliza para identificar
+nuestra red doméstica en la red global.
+
+En cambio, la dirección IP privada es una dirección interna asignada a 
+la máquina virtual en sí misma. Esta dirección IP privada es única dentro
+de nuestra red local y se utiliza para identificar y comunicarse con la
+máquina virtual específica dentro de nuestra red interna. No es visible
+ni accesible directamente desde Internet, ya que está "oculta" detrás
+de la dirección IP pública del enrutador.
+
+En resumen, mientras que la dirección IP pública identifica nuestra red
+doméstica ante el mundo exterior, la dirección IP privada es una
+dirección interna utilizada para la comunicación y la identificación 
+dentro de la máquina virtual en nuestra red local.
